@@ -1,5 +1,5 @@
 {
-  "name": "the-ct-website-master",
+  "name": "the-ct-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,5 +15,17 @@
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.1"
-  }
+  },
+  "description": "This is the CT website. This website will serve as the home for all of my podcasts.",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkerdouglass/the-ct-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkerdouglass/the-ct-website/issues"
+  },
+  "homepage": "https://github.com/parkerdouglass/the-ct-website#readme"
 }
