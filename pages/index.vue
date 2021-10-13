@@ -1,5 +1,3 @@
 <template>
-  <v-app>
-    <p>welcome</p>
-  </v-app>
+  <p>Hello this is test text</p>
 </template>
