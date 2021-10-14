@@ -7,7 +7,8 @@
     <v-app-bar 
       class="navbar"
       elevate-on-scroll 
-      flat
+      elevation="10"
+      fixed
       color = "white"
     >
       <v-app-bar-title><!-- app-bar-title is the left text -->
