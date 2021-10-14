@@ -2,14 +2,24 @@
   <v-app>
     <v-app-bar 
       class="navbar"
-      dense 
       elevate-on-scroll 
       flat
       color = "white"
     >
       <v-app-bar-title>
-        <span class="nav-title">The CT</span>
+        <span class="nav-title">TCT</span>
       </v-app-bar-title>
+      <v-spacer></v-spacer>
+      <div class="nav-link-container">
+      <nuxt-link to="/" class="nav-link">Home</nuxt-link>
+      <nuxt-link to="/" class="nav-link">About</nuxt-link>
+      <nuxt-link to="/" class="nav-link">Episodes</nuxt-link>
+      <nuxt-link to="/" class="nav-link">Contact us</nuxt-link>
+      </div>
+      <v-spacer></v-spacer>
+      <div class="login-button-container">
+      <nuxt-link to="/" class="login-button">Login</nuxt-link>
+      </div>
     </v-app-bar>
     <v-main>
       <v-content>
@@ -28,5 +38,26 @@
 <style lang="scss">
   .v-toolbar{
     flex: 0.1;
+  }
+  .navbar{
+    .nav-link{
+      text-decoration: none;
+      color: black;
+      margin-right: 22px;
+      :last-child{
+        margin-right: 0;
+      }
+    }
+    .login-button-container{
+      .login-button{
+        color: white;
+        background-color: #0075FF;
+        padding: 10px;
+        text-decoration: none;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+    }
+    
   }
 </style>
